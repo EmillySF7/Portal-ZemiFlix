@@ -1,0 +1,90 @@
+body {
+
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 15px;
+    font-family: "Anton SC", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+
+    border-bottom: solid 5px rgb(255, 255, 255);;
+    padding: 20px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.chamada{
+    background:rgb(201, 25, 25);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-right: 30px;
+    display:flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 4%;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.categoria {
+    padding: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid pink;
+}
+
+.categoria h2 {
+    color: pink;
+}
+
+
+
+
+
+.categoria-bf {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.My-bf {
+    padding: 50px;
+}
+
+.categoria-bf img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-bf img:hover {
+    opacity: 1.0;
+    border: 3px solid purple;
+}
+
+.My-bf h2 {
+    color: pink;
+}
